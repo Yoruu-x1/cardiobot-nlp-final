@@ -1,0 +1,29 @@
+Heart Failure Overview
+
+Heart failure, also known as congestive heart failure (CHF), is a clinical syndrome in which the heart is unable to pump blood effectively due to structural or functional impairment. As a result, the body does not receive sufficient oxygen and nutrients. The most common cause of heart failure is ischemic heart disease, although other causes include hypertension, valvular disease, and myocarditis. Common symptoms include shortness of breath, fatigue, fluid retention, and edema.
+
+Heart Failure Classification (ACC/AHA Stages)
+
+Heart failure is classified based on disease progression. Stage A includes individuals at risk of heart failure without structural heart disease or symptoms, such as those with hypertension or diabetes. Stage B involves structural heart disease without symptoms. Stage C includes patients with structural heart disease and current or past symptoms. Stage D represents advanced heart failure with severe symptoms despite treatment.
+
+Heart Failure Symptom Severity (NYHA Classification)
+
+The New York Heart Association (NYHA) classification describes symptom severity. Class I involves no limitation during normal activity, with symptoms only during heavy exertion. Class II includes symptoms during normal activity. Class III involves symptoms with minimal activity, and may include symptoms at rest in more severe cases. Class IV represents severe heart failure with symptoms even at rest.
+
+Heart Failure Causes (General)
+
+Heart failure has multiple causes, with ischemic heart disease being the most common worldwide. Other major causes include hypertension, valvular heart disease, cardiomyopathy, and chronic lung disease such as chronic obstructive pulmonary disease (COPD). These causes may involve intrinsic heart disease or systemic conditions that affect cardiac function.
+
+Heart Failure Causes (Specific Conditions)
+
+Ischemic heart disease leads to reduced blood flow to the heart muscle, decreasing oxygen supply and impairing contraction. Hypertension increases the workload of the heart by raising afterload, which leads to thickening of the heart muscle and reduced efficiency over time. Valvular heart disease disrupts normal blood flow through the heart and may result from conditions such as rheumatic disease, age-related degeneration, or endocarditis.
+
+Inflammatory and infectious conditions such as myocarditis can also cause heart failure. These may result from viral infections, including adenovirus or COVID-19, as well as bacterial, fungal, or autoimmune conditions. In some regions, Chagas disease is a notable infectious cause.
+
+Other contributing conditions include obesity, arrhythmias, thyroid disorders such as thyrotoxicosis, pregnancy-related cardiomyopathy, and high-output states such as anemia or thiamine deficiency. These conditions increase cardiac workload or reduce efficiency.
+
+Heart Failure Pathophysiology
+
+Heart failure is a progressive condition that involves compensatory mechanisms in the body. These include activation of the sympathetic nervous system and the renin-angiotensin-aldosterone system (RAAS), which increase heart rate and cause vasoconstriction. Although these responses initially help maintain circulation, they eventually become harmful.
+
+Over time, these changes lead to cardiac remodeling, reduced ejection fraction, fluid retention, and damage to other organs.

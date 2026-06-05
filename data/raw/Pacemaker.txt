@@ -1,0 +1,92 @@
+Pacemaker
+A pacemaker is a small, battery-powered device that prevents the heart from beating too slowly. You need surgery to get a pacemaker. The device is placed under the skin near the collarbone.
+
+A pacemaker also is called a cardiac pacing device.
+
+There are different types of pacemakers.
+
+Single chamber pacemaker. This type usually sends electrical signals to the lower right chamber of the heart.
+Dual chamber pacemaker. This type sends electrical signals to the upper and lower right heart chambers.
+Biventricular pacemaker. This type also is called a cardiac resynchronization pacemaker. It's for people who have heart failure and a slow heartbeat. The device stimulates both lower heart chambers. It helps make the heart muscle stronger.
+
+Why it's done
+A pacemaker is used to control or increase the heartbeat. It stimulates the heart as needed to keep it beating regularly.
+
+The heart's electrical system typically controls the heartbeat. Electrical signals, called impulses, move through the heart chambers. They tell the heart when to beat.
+
+Changes in heart signaling may happen if the heart muscle is damaged. Changes in genes before birth and some medicines also can cause changes in heart signaling.
+
+You may need a pacemaker if:
+
+You have a slow or irregular heartbeat that lasts for a long time.
+You have heart failure.
+A pacemaker only works when it senses trouble with the heartbeat. For example, if the heart beats too slowly, the pacemaker sends electrical signals to correct the beat.
+
+Some pacemakers can increase the heartbeat as needed, such as during exercise.
+
+A pacemaker may have two parts:
+
+Pulse generator. This small metal box has a battery and electrical parts. It controls the rate of electrical signals sent to the heart.
+Leads. These are flexible wires. One to three wires go in one or more of the heart's chambers. The wires send the electrical signals needed to correct an irregular heartbeat. Some newer pacemakers don't need leads. These devices are called leadless pacemakers.
+
+Risks
+Possible complications of a pacemaker device or its surgery may include:
+
+Heart infection.
+Swelling, bruising or bleeding, especially if you take blood thinners.
+Blood clots in the heart near where the device is placed.
+Damage to blood vessels or nerves.
+Collapsed lung.
+Blood in the space between the lung and the chest wall.
+Moving or shifting of the device or leads, which could cause a hole in the heart. This complication is rare.
+How you prepare
+You need several tests to learn if a pacemaker is right for you. These tests may include:
+
+Electrocardiogram (ECG or EKG). This quick test shows how the heart beats. Some personal devices, such as smartwatches, can check the heartbeat. Ask your healthcare team if this is an option for you.
+Holter monitor. This portable device is worn for a day or more to record the heart's rate and rhythm during daily activities. It may be done if an ECG doesn't give enough details about a heart condition. A Holter monitor may be able to see irregular heart rhythms that an ECG missed.
+Echocardiogram. Sound waves make pictures of the beating heart. This test shows how blood flows through the heart and heart valves.
+Stress or exercise tests. These tests often involve walking on a treadmill or riding a stationary bike while the heart's rate and rhythm are watched. Exercise tests show how the heart responds to physical activity. Sometimes, a stress test is done with other imaging tests, such as an echocardiogram.
+What you can expect
+Before the procedure
+Surgery is needed to place a pacemaker in the body. The surgery usually takes a few hours.
+
+A member of your care team cleans your chest with a special soap. An IV goes into a vein in your forearm or hand. Medicine called a sedative goes through the IV. It helps you relax.
+
+Usually, medicine is used to numb the skin where the pacemaker will be inserted. This medicine is called local anesthesia. During the pacemaker surgery, you may be fully awake or lightly sedated.
+
+During the procedure
+To place a pacemaker, a doctor inserts one or more wires into a major vein under or near the collarbone. The doctor uses X-ray images to guide the wires to the heart.
+
+One end of each wire attaches to the proper area in the heart. The other end connects to the part of the pacemaker that delivers electrical signals. That part is called a pulse generator. It usually goes under the skin beneath the collarbone.
+
+A leadless pacemaker is smaller. All the parts are inside a single unit. It's placed into the heart using a thin, flexible tube called a catheter. The doctor inserts the tube into a blood vessel, usually in the groin. The leadless pacemaker goes through the tube. It's guided to the proper area in the heart.
+
+After the procedure
+You may stay in the hospital for a day after getting a pacemaker. Your healthcare team programs the device to fit your heart rhythm needs before you leave. Have someone drive you home from the hospital.
+
+For the first month after getting a pacemaker, you may be told not to do any heavy lifting or exercise that uses a lot of energy. Do not put pressure on the area where the pacemaker is. Your healthcare team tells you what medicines you safely can take if you have pain.
+
+Special precautions
+A pacemaker doesn't usually stop working because of electrical interference. But it's a good idea to follow a few safety tips if you have a pacemaker.
+
+Mobile phones. It's safe to talk on a mobile phone. But keep the phone at least 6 inches (15 centimeters) away from your pacemaker. Don't keep your phone in a shirt pocket. When talking on your phone, hold it to the ear opposite the side where your pacemaker is.
+Security systems. Passing through an airport metal detector won't interfere with a pacemaker. But the metal in the pacemaker could sound the alarm. Do not stay too long near a metal-detection system. Carry an ID card that says you have a pacemaker.
+Medical equipment. Tell all of your healthcare team members, including dentists, that you have a pacemaker. MRI or CT scans may interfere with the device. Some treatments also may interfere with it. These treatments include radiation therapy for cancer, the use of an electric current to control bleeding during surgery, and sound wave therapy to break up large kidney stones or gallstones.
+Power-generating equipment. Stand at least 2 feet (61 centimeters) from welding equipment, high-voltage transformers or motor-generator systems. If you work around such equipment, ask your healthcare team if a safety test can be done at your workplace. The test can check whether the equipment affects your pacemaker.
+Devices that are not likely to interfere with a pacemaker include:
+
+Electric blankets.
+Electric razors.
+Microwave ovens.
+Personal computers.
+Radios.
+Televisions and remote controls.
+Toasters.
+Results
+A pacemaker should improve symptoms caused by a slow heartbeat, such as extreme tiredness, lightheadedness and fainting. Most modern pacemakers automatically change the speed of the heartbeat to match the level of physical activity. A pacemaker may let you have a more active lifestyle.
+
+You need regular health checkups after getting a pacemaker. Ask your healthcare professional how often you need them. Tell your healthcare team if you gain weight, if your legs or ankles get puffy, or if you faint or get dizzy.
+
+A healthcare professional should check your pacemaker every 3 to 6 months. Most pacemakers can be checked remotely. This means you don't have to go into a medical office for the checkup. A pacemaker sends information about the device and your heart electronically to your health team’s office.
+
+A pacemaker's battery typically lasts 5 to 15 years. When the battery stops working, you need surgery to replace it. The surgery to change a pacemaker's battery is often quicker than the first surgery to place the device. You also should have a quicker recovery.

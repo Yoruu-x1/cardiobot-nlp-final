@@ -1,0 +1,8 @@
+{
+  "model": "TF-IDF Baseline",
+  "test_size": 34,
+  "source_match_accuracy": 0.6176,
+  "top3_source_match_accuracy": 0.8529,
+  "average_answer_similarity": 0.2598,
+  "average_top_score": 0.2919
+}

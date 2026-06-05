@@ -1,0 +1,47 @@
+Electrocardiogram Definition
+
+An electrocardiogram (ECG or EKG) is a quick and noninvasive test that records the electrical activity of the heart. It is commonly used by healthcare providers to diagnose heart rhythm problems and to monitor how well treatments are working. The test can be performed in a clinic, hospital, or even in an ambulance depending on the situation.
+
+Electrocardiogram Types and Duration
+
+A standard electrocardiogram is usually performed in a medical facility and records the heart’s electrical activity for a short period. This is known as a 12-lead ECG and may be done while the patient is resting or during physical activity as part of a stress test.
+
+For patients with intermittent heart rhythm problems, longer monitoring may be required. A Holter monitor can record heart activity over an extended period, while an implantable loop recorder is used for long-term monitoring when symptoms occur infrequently.
+
+Electrocardiogram Indications
+
+An electrocardiogram is performed for several reasons. It can help identify the cause of symptoms, diagnose heart conditions, and evaluate heart function after procedures such as pacemaker placement. It is also used to monitor the effectiveness of medications, assess fitness before surgery, evaluate individuals at higher risk for heart disease, and check heart rhythm after a heart attack.
+
+Electrocardiogram Symptoms Indicating Need
+
+Symptoms that may require an electrocardiogram include chest pain, shortness of breath, fatigue, dizziness, fainting, and irregular heartbeats such as fluttering or rapid heart rate. In some cases, poor blood supply during physical activity may also indicate the need for testing.
+
+Electrocardiogram Preparation
+
+Patients can usually eat and drink normally before the test. However, it is recommended to avoid oily skin products on the day of the test, as they may interfere with electrode placement. Wearing clothing that allows easy access to the chest is also helpful.
+
+Electrocardiogram Procedure
+
+During the procedure, a healthcare provider attaches 12 electrodes to the skin using adhesive pads. Six electrodes are placed on the chest, and the remaining electrodes are placed on the arms and legs. Hair may be shaved if necessary to improve contact. These electrodes detect electrical signals from the heart and transmit them through leads to produce a 12-lead ECG recording.
+
+The test may be performed under different conditions. In a resting ECG, the patient lies still while the recording is taken. In a stress test ECG, the patient exercises on a treadmill or stationary bike while the heart activity is monitored.
+
+Electrocardiogram Duration and Recording
+
+The procedure typically takes about 10 minutes to set up, while the actual recording of electrical activity takes only a few seconds. During the test, a computer generates a visual graph of the heart’s electrical signals, forming a wave pattern. The patient does not feel any electrical activity during the process.
+
+Electrocardiogram Post-Procedure and Risks
+
+After the test, the electrodes are removed and the patient can return to normal activities. The electrocardiogram is a low-risk procedure, as it does not use radiation and does not deliver electricity into the body. In some cases, minor skin irritation may occur from the adhesive pads.
+
+Electrocardiogram Results
+
+The ECG produces a visual representation of the heart’s electrical activity. Healthcare providers analyze the strength of the signals, the timing between waves, and the overall pattern of the electrical impulses.
+
+A normal ECG shows a regular repeating wave pattern consisting of a P wave, QRS complex, and T wave, which reflect the activity of different parts of the heart. These waves occur at consistent intervals, indicating a normal heart rate and rhythm.
+
+Abnormal ECG results may show irregular wave patterns, which can help identify problems such as arrhythmias, abnormal electrical conduction, reduced blood flow to the heart, heart attack, or structural abnormalities.
+
+Conditions Diagnosed by Electrocardiogram
+
+An electrocardiogram can help diagnose several conditions, including abnormal heart rhythms, conduction problems, reduced blood flow to the heart (ischemia), heart valve abnormalities, congenital heart disease, heart attack, enlarged heart chambers, and heart failure.

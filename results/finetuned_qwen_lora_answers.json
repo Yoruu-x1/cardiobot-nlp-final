@@ -1,0 +1,274 @@
+[
+  {
+    "id": "qa_047",
+    "topic": "Cardiomyopathy",
+    "source": "Cardiomyopathy.txt",
+    "question": "What is dilated cardiomyopathy?",
+    "reference_answer": "Dilated cardiomyopathy is a type of cardiomyopathy in which the heart chambers become thin, stretched, and enlarged. It usually starts in the left ventricle and makes it harder for the heart to pump blood to the body.",
+    "finetuned_answer": "Dilated cardiomyopathy is a type of cardiomyopathy in which the heart muscle becomes enlarged and loses its normal strength and ability to pump blood effectively."
+  },
+  {
+    "id": "qa_057",
+    "topic": "Heart Valve Disease",
+    "source": "Heart Valve Disease.txt",
+    "question": "What is valve regurgitation?",
+    "reference_answer": "Valve regurgitation happens when valve flaps do not close tightly. This allows blood to leak backward through the valve.",
+    "finetuned_answer": "Valve regurgitation occurs when one of the heart valves does not close properly. Blood leaks backward through the valve instead of flowing in only one direction. This can happen with any heart valve but most often affects the mitral valve."
+  },
+  {
+    "id": "qa_099",
+    "topic": "Blood Flow",
+    "source": "Blood_Flow.txt",
+    "question": "What are the main functions of blood flow?",
+    "reference_answer": "Blood flow delivers oxygen and nutrients to organs and tissues and removes carbon dioxide and metabolic waste. It also transports immune cells such as white blood cells to help protect the body from infection.",
+    "finetuned_answer": "Blood flow carries oxygen and nutrients from the lungs and digestive system to tissues throughout the body. It also removes carbon dioxide and other waste products from cells. Blood pressure helps maintain this circulation by pushing blood through blood vessels against gravity."
+  },
+  {
+    "id": "qa_135",
+    "topic": "Heart Failure",
+    "source": "heart_failure.txt",
+    "question": "What are the ACC/AHA stages of heart failure?",
+    "reference_answer": "The ACC/AHA stages of heart failure are Stage A, Stage B, Stage C, and Stage D. Stage A means at risk without structural disease, Stage B means structural disease without symptoms, Stage C means structural disease with current or past symptoms, and Stage D means advanced heart failure with severe symptoms despite treatment.",
+    "finetuned_answer": "The ACC/AHA stages of heart failure include New York Heart Association Class I (no symptoms), Class II (mild symptoms with normal physical activity), Class III (moderate symptoms with some physical limitation), and Class IV (severe symptoms even at rest)."
+  },
+  {
+    "id": "qa_070",
+    "topic": "Stroke",
+    "source": "Stroke.txt",
+    "question": "How is hemorrhagic stroke treated?",
+    "reference_answer": "Hemorrhagic stroke treatment focuses on controlling the bleeding and reducing pressure around the brain. Treatment may include medications to stop bleeding, blood pressure management, and sometimes surgery to reduce increased intracranial pressure.",
+    "finetuned_answer": "Hemorrhagic stroke treatment depends on the underlying cause of bleeding in the brain. It may include surgery to remove blood clots, medications for high blood pressure, and close monitoring if it is caused by aneurysm or arteriovenous malformation."
+  },
+  {
+    "id": "qa_114",
+    "topic": "Heart Anatomy and Function",
+    "source": "heart_anatomy_and_function.txt",
+    "question": "What is the heart?",
+    "reference_answer": "The heart is a fist-sized muscular organ that pumps blood throughout the body. It is the main organ of the circulatory system and is controlled by electrical impulses.",
+    "finetuned_answer": "The heart is a muscular organ that pumps blood throughout the body through a network of blood vessels. It has four chambers: two atria and two ventricles."
+  },
+  {
+    "id": "qa_042",
+    "topic": "Cardiomyopathy",
+    "source": "Cardiomyopathy.txt",
+    "question": "What are common symptoms of cardiomyopathy?",
+    "reference_answer": "Symptoms of cardiomyopathy can include shortness of breath, chest pain after activity or heavy meals, rapid or fluttering heartbeats, swelling in the legs or feet, bloating from fluid buildup, cough while lying down, fatigue, dizziness, and fainting.",
+    "finetuned_answer": "Common symptoms of cardiomyopathy include shortness of breath, fatigue, palpitations, dizziness, fainting, edema (swelling), chest pain, and irregular heartbeat. Some people may have no symptoms at first."
+  },
+  {
+    "id": "qa_052",
+    "topic": "Cardiomyopathy",
+    "source": "Cardiomyopathy.txt",
+    "question": "How can acquired cardiomyopathy risk be reduced?",
+    "reference_answer": "The risk of acquired cardiomyopathy can be reduced by avoiding alcohol and illegal drugs, controlling high blood pressure, high cholesterol and diabetes, eating a healthy diet, exercising regularly, getting enough sleep, and lowering stress.",
+    "finetuned_answer": "Acquired cardiomyopathy risk can be reduced by maintaining a healthy lifestyle with regular physical activity, a balanced diet, avoiding smoking, managing blood pressure, cholesterol, and diabetes, getting enough sleep, reducing stress, and following healthcare recommendations for heart disease prevention."
+  },
+  {
+    "id": "qa_155",
+    "topic": "Warning Signs of Heart Attack",
+    "source": "warning_signs_of_heart_attack.txt",
+    "question": "What should someone do if heart attack warning signs occur?",
+    "reference_answer": "If heart attack warning signs occur, immediate medical attention is critical. Early recognition and treatment can reduce serious complications, so the person should seek emergency medical help right away.",
+    "finetuned_answer": "If heart attack warning signs occur, call 911 immediately. Do not delay seeking emergency help."
+  },
+  {
+    "id": "qa_074",
+    "topic": "Cholesterol",
+    "source": "Cholesterol.txt",
+    "question": "Where does cholesterol come from?",
+    "reference_answer": "Cholesterol comes from two sources. The liver makes all the cholesterol the body needs, and the rest can come from animal-based foods such as meat, poultry, and dairy products.",
+    "finetuned_answer": "Cholesterol comes from food you eat and is also made by your liver. Your body makes all of the cholesterol it needs for normal function."
+  },
+  {
+    "id": "qa_158",
+    "topic": "Heart Disease Risk Factors",
+    "source": "heart_disease_risk_factors.txt",
+    "question": "Why are high blood pressure, high cholesterol, and smoking considered major heart disease risk factors?",
+    "reference_answer": "High blood pressure, high cholesterol, and smoking are major heart disease risk factors because they directly affect blood vessels and increase the risk of cardiovascular complications. Managing these factors can help reduce heart disease risk.",
+    "finetuned_answer": "High blood pressure, high cholesterol, and smoking can damage arteries over time, increasing the risk of plaque buildup that narrows blood vessels and raises the chance of heart attack, stroke, and other serious conditions."
+  },
+  {
+    "id": "qa_058",
+    "topic": "Heart Valve Disease",
+    "source": "Heart Valve Disease.txt",
+    "question": "What is valve prolapse?",
+    "reference_answer": "Valve prolapse happens when valve flaps become stretched out and floppy. They bulge backward like a parachute and may lead to regurgitation.",
+    "finetuned_answer": "Valve prolapse happens when one of the heart valves does not close properly because it has thickened and bulged into the chamber below it. This can happen with mitral valve prolapse or tricuspid valve prolapse."
+  },
+  {
+    "id": "qa_017",
+    "topic": "Cardiac Ablation",
+    "source": "Cardiac ablation.txt",
+    "question": "What are the benefits of cardiac ablation?",
+    "reference_answer": "Cardiac ablation is minimally invasive and usually does not require a long hospital stay. It can restore a normal heart rhythm when medications fail or cause unwanted side effects, and in some cases it can be lifesaving.",
+    "finetuned_answer": "Cardiac ablation can reduce symptoms for people with certain types of arrhythmias by eliminating abnormal electrical pathways in the heart. It may also prevent sudden death from life-threatening arrhythmias."
+  },
+  {
+    "id": "qa_025",
+    "topic": "Holter Monitor",
+    "source": "Holter Monitor.txt",
+    "question": "What is a Holter monitor?",
+    "reference_answer": "A Holter monitor is a small wearable device that records the heart's rhythm, usually for one to two days. It is used to detect irregular heartbeats, also called arrhythmias.",
+    "finetuned_answer": "A Holter monitor is a portable ECG device worn for 24 hours that records heart rhythm continuously. It is used to detect irregular heart rhythms when symptoms occur intermittently."
+  },
+  {
+    "id": "qa_122",
+    "topic": "Heart Disease",
+    "source": "Heart_Disease.txt",
+    "question": "What are the main types of heart disease?",
+    "reference_answer": "Types of heart disease include coronary artery disease, arrhythmia, heart valve disease, cardiomyopathy, heart failure, congenital heart disease, and pericardial disease.",
+    "finetuned_answer": "The main types of heart disease include coronary artery disease, cardiomyopathy, arrhythmias, valvular heart disease, congenital heart defects, stroke, peripheral arterial disease, and heart failure."
+  },
+  {
+    "id": "qa_112",
+    "topic": "Electrocardiogram",
+    "source": "Electrocardiogram.txt",
+    "question": "When might an ECG be needed?",
+    "reference_answer": "An ECG may be needed for chest pain, shortness of breath, fatigue, dizziness, fainting, irregular heartbeats, monitoring medication effectiveness, pre-surgery assessment, evaluating high-risk individuals, or checking rhythm after a heart attack.",
+    "finetuned_answer": "An ECG may be needed when someone has chest pain, shortness of breath, irregular heartbeat, fainting, or other heart-related symptoms. It can also be used during emergency cardiac events like heart attack or stroke."
+  },
+  {
+    "id": "qa_104",
+    "topic": "Circulation",
+    "source": "circulation.txt",
+    "question": "What is systemic circulation?",
+    "reference_answer": "Systemic circulation carries oxygen-rich blood from the left ventricle into the aorta and then through arteries and capillaries to the body. Oxygen-poor blood returns to the right atrium through veins.",
+    "finetuned_answer": "Systemic circulation moves oxygen-rich blood from the heart through arteries to all parts of the body. It then returns deoxygenated blood to the right atrium via veins."
+  },
+  {
+    "id": "qa_011",
+    "topic": "Blood Pressure Measurement",
+    "source": "Blood pressure measurement.txt",
+    "question": "What is the correct way to measure blood pressure?",
+    "reference_answer": "Before measuring blood pressure, avoid eating or drinking for 30 minutes, empty the bladder, and sit with the back supported for at least five minutes. Keep both feet flat on the floor, legs uncrossed, arm supported at chest height, cuff against bare skin, and avoid talking during the measurement.",
+    "finetuned_answer": "To measure blood pressure correctly, sit quietly for at least five minutes before taking the reading. Place the cuff on your upper arm with the narrowest part against your skin. Use an appropriate sized cuff based on your height and waist size if you have those measurements. Inflate until you hear a sound that stops when the heart beats again. Then deflate slowly while listening carefully to see when the sound starts again."
+  },
+  {
+    "id": "qa_067",
+    "topic": "Stroke",
+    "source": "Stroke.txt",
+    "question": "What are risk factors for stroke?",
+    "reference_answer": "Stroke risk factors include older age, smoking or tobacco use, recreational drug use, alcohol use disorder, COVID-19, frequent migraines, high blood pressure, high cholesterol, and type 2 diabetes.",
+    "finetuned_answer": "Risk factors for stroke include age over 55, family history of stroke, high blood pressure, diabetes, heart disease, kidney disease, sleep apnea, obesity, smoking, physical inactivity, and use of illicit drugs."
+  },
+  {
+    "id": "qa_160",
+    "topic": "Prevention",
+    "source": "prevention.txt",
+    "question": "Why is managing diabetes important for heart disease prevention?",
+    "reference_answer": "Managing diabetes is important because diabetes is a cardiovascular risk factor. Keeping diabetes under control, along with managing blood pressure and cholesterol, can help lower the risk of heart disease.",
+    "finetuned_answer": "Managing diabetes helps prevent complications that can lead to heart disease. High blood sugar levels damage blood vessels over time, increasing risk of heart attack, stroke, kidney failure, blindness, nerve problems, and amputations. Controlling blood pressure and cholesterol also reduces heart disease risk."
+  },
+  {
+    "id": "qa_086",
+    "topic": "Angiography",
+    "source": "Angiography.txt",
+    "question": "What are possible risks of angiography?",
+    "reference_answer": "Angiography is generally safe, but temporary effects may include bruising, soreness, or a small lump at the catheter insertion site. Rare serious complications can include allergic reaction to the contrast dye, stroke, or heart attack.",
+    "finetuned_answer": "Possible risks include bleeding, infection, stroke, allergic reaction to contrast dye, kidney failure, heart attack, arrhythmia, and perforation of blood vessels. These risks vary depending on individual factors such as age, overall health, and type of procedure."
+  },
+  {
+    "id": "qa_031",
+    "topic": "Pacemaker",
+    "source": "Pacemaker.txt",
+    "question": "What are the main types of pacemakers?",
+    "reference_answer": "The main types of pacemakers are single chamber, dual chamber, and biventricular pacemakers. A single chamber pacemaker usually sends signals to the lower right heart chamber, a dual chamber pacemaker sends signals to the upper and lower right chambers, and a biventricular pacemaker helps stimulate both lower chambers in some people with heart failure.",
+    "finetuned_answer": "The main types of pacemakers include cardioverter-defibrillators (for treating arrhythmias), temporary pacemakers that may be used for short periods during surgery, and cardiac resynchronization therapy defibrillators."
+  },
+  {
+    "id": "qa_136",
+    "topic": "Heart Failure",
+    "source": "heart_failure.txt",
+    "question": "What is the NYHA classification for heart failure?",
+    "reference_answer": "The NYHA classification describes symptom severity in heart failure. Class I has no limitation, Class II has symptoms during normal activity, Class III has symptoms with minimal activity, and Class IV has severe symptoms even at rest.",
+    "finetuned_answer": "NYHA classifies heart failure patients based on their level of functional limitation: Class I has no limitations; Class II feels tired with slight exertion; Class III feels tired even with minimal exertion; Class IV requires rest."
+  },
+  {
+    "id": "qa_002",
+    "topic": "Angioplasty and Stent",
+    "source": "Angioplasty and stent.txt",
+    "question": "What is the purpose of a stent during angioplasty?",
+    "reference_answer": "A stent is a short wire mesh tube placed inside the artery during angioplasty. It stays in the artery permanently to help keep the vessel open and allow blood to flow more freely.",
+    "finetuned_answer": "A stent helps keep blood vessels open after angioplasty by expanding inside the narrowed area. It can prevent future blockages from forming in the artery."
+  },
+  {
+    "id": "qa_093",
+    "topic": "Atherosclerosis",
+    "source": "Atherosclerosis.txt",
+    "question": "What is atherosclerosis?",
+    "reference_answer": "Atherosclerosis is a condition in which plaque made of fat, cholesterol, calcium, and other substances builds up inside artery walls. This makes arteries narrower and less flexible, reducing blood flow.",
+    "finetuned_answer": "Atherosclerosis is a condition in which plaque builds up inside the arteries. Plaque is made of fat, cholesterol, calcium, and other substances found in the blood. This buildup narrows the artery and makes it harder for blood to pass through."
+  },
+  {
+    "id": "qa_148",
+    "topic": "Treatment for Heart Disease",
+    "source": "treatment_for_heart_disease.txt",
+    "question": "What lifestyle changes can help coronary heart disease?",
+    "reference_answer": "Lifestyle changes that can help coronary heart disease include eating a healthy diet rich in fruits, vegetables, and whole grains, limiting saturated fats and sodium, exercising regularly, quitting smoking, getting enough sleep, maintaining a healthy weight, and managing stress.",
+    "finetuned_answer": "Lifestyle changes that may help include quitting smoking, eating a healthy diet with plenty of fruits and vegetables, maintaining a healthy weight, getting regular physical activity, managing stress, limiting alcohol use, and taking prescribed medications as directed by healthcare providers."
+  },
+  {
+    "id": "qa_140",
+    "topic": "Hypertension",
+    "source": "hypertension.txt",
+    "question": "How is hypertension diagnosed?",
+    "reference_answer": "Hypertension is diagnosed by measuring blood pressure with a sphygmomanometer. Normal blood pressure is below 120/80 mmHg, elevated blood pressure is 120 to 129 systolic with less than 80 diastolic, and hypertension is 130/80 mmHg or above. Multiple readings over time are usually required.",
+    "finetuned_answer": "Hypertension can be diagnosed with a blood pressure measurement taken at a healthcare provider's office. A single high reading may prompt further testing."
+  },
+  {
+    "id": "qa_105",
+    "topic": "Coronary Artery Disease",
+    "source": "Coronary Artery Disease.txt",
+    "question": "What is coronary artery disease?",
+    "reference_answer": "Coronary artery disease, or CAD, is a condition in which the coronary arteries become narrowed or blocked due to plaque buildup. This reduces blood flow to the heart and can lead to heart attack, arrhythmia, or heart failure.",
+    "finetuned_answer": "Coronary artery disease occurs when plaque builds up in the arteries that supply blood to the heart muscle. This can narrow or block blood flow to the heart, potentially leading to chest pain, heart attack, or stroke."
+  },
+  {
+    "id": "qa_092",
+    "topic": "Arrhythmia",
+    "source": "Arrhythmia.txt",
+    "question": "What complications can untreated arrhythmia cause?",
+    "reference_answer": "Untreated arrhythmia can lead to serious complications such as cardiomyopathy, cardiac arrest, and stroke. The risk depends on the type and severity of the rhythm problem.",
+    "finetuned_answer": "Untreated arrhythmia may lead to heart failure, stroke, sudden cardiac arrest, and death if it is severe enough."
+  },
+  {
+    "id": "qa_037",
+    "topic": "Peripheral Artery Disease",
+    "source": "Peripheral artery disease.txt",
+    "question": "What are common symptoms of peripheral artery disease?",
+    "reference_answer": "Peripheral artery disease may cause leg pain while walking, muscle pain or cramping in the arms or legs, pain that begins with exercise and improves with rest, coldness in the lower leg or foot, numbness, weakness, or a weak pulse in the legs or feet.",
+    "finetuned_answer": "Common symptoms include pain in the legs when walking, numbness or weakness in the leg muscles, cold skin coloration, sores that do not heal quickly, and changes in blood pressure readings."
+  },
+  {
+    "id": "qa_021",
+    "topic": "Cardiac Rehabilitation",
+    "source": "Cardiac rehabilitation.txt",
+    "question": "Who may be recommended for cardiac rehabilitation?",
+    "reference_answer": "Cardiac rehabilitation may be recommended for people with heart attack, heart failure, cardiomyopathy, certain congenital heart diseases, blocked arteries, or heart procedures such as angioplasty, stenting, bypass surgery, transplant, or valve repair or replacement.",
+    "finetuned_answer": "Cardiac rehabilitation is often recommended for people who have had heart disease, stroke, heart attack, valve surgery, angioplasty, stents, pacemaker implantation, artificial valve replacement, bypass surgery, or other procedures that affect blood flow to the heart."
+  },
+  {
+    "id": "qa_066",
+    "topic": "Stroke",
+    "source": "Stroke.txt",
+    "question": "What is a hemorrhagic stroke?",
+    "reference_answer": "A hemorrhagic stroke happens when a blood vessel in the brain breaks or tears. Possible causes include brain aneurysms, brain tumors, high blood pressure, and conditions that weaken blood vessels in the brain.",
+    "finetuned_answer": "A hemorrhagic stroke happens when a blood vessel in the brain leaks or ruptures, causing bleeding inside the skull. This can be caused by high blood pressure, aneurysms, arteriovenous malformations, or trauma."
+  },
+  {
+    "id": "qa_120",
+    "topic": "Heart Anatomy and Function",
+    "source": "heart_anatomy_and_function.txt",
+    "question": "What is the pericardium?",
+    "reference_answer": "The pericardium is a protective sac that surrounds the heart. It contains fluid that helps reduce friction as the heart beats.",
+    "finetuned_answer": "The pericardium is a sac-like structure that surrounds the heart. It has two layers: the fibrous layer outside and the serous layer inside. The serous layer contains a small amount of fluid that helps the heart move smoothly within the sac."
+  },
+  {
+    "id": "qa_076",
+    "topic": "Cholesterol",
+    "source": "Cholesterol.txt",
+    "question": "Why are cholesterol numbers important?",
+    "reference_answer": "Cholesterol numbers are important because they help show the risk for heart disease. Too much cholesterol can enter artery walls, contribute to atherosclerotic plaque, and increase the risk of problems such as coronary artery disease, peripheral artery disease, carotid artery disease, heart attack, or stroke.",
+    "finetuned_answer": "Cholesterol numbers can indicate how well your heart is working. High LDL levels increase risk of heart disease, while high HDL may lower that risk."
+  }
+]

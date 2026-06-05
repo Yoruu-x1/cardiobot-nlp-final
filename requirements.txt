@@ -1,0 +1,13 @@
+streamlit
+torch
+transformers
+peft
+accelerate
+datasets
+trl
+scikit-learn
+pandas
+numpy
+matplotlib
+rouge-score
+nltk

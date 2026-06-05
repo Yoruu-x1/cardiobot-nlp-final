@@ -1,0 +1,11 @@
+{
+  "total_qa": 160,
+  "total_topics": 26,
+  "train_size": 101,
+  "validation_size": 25,
+  "test_size": 34,
+  "avg_question_words": 6.36,
+  "avg_answer_words": 33.03,
+  "min_answer_words": 18,
+  "max_answer_words": 58
+}

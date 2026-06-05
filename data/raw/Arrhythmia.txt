@@ -1,0 +1,67 @@
+Arrhythmia Definition
+
+Arrhythmia, also known as dysrhythmia, refers to an abnormal heartbeat. It occurs when the heart beats too fast, too slow, or in an irregular rhythm. Arrhythmias can originate from different parts of the heart and may affect how effectively blood is circulated throughout the body.
+
+Arrhythmia Types
+
+Arrhythmias are classified based on where they begin in the heart. Supraventricular arrhythmias start in the atria, which are the upper chambers of the heart. Ventricular arrhythmias originate in the ventricles, the lower chambers of the heart. Other types include bradyarrhythmias and junctional rhythms, which are caused by problems in the heart’s conduction system involving structures such as the sinoatrial (SA) node, atrioventricular (AV) node, and the His-Purkinje network.
+
+Arrhythmia Symptoms
+
+Common symptoms of arrhythmia include heart palpitations, dizziness or lightheadedness, fainting episodes, shortness of breath, chest discomfort, weakness, and fatigue. However, some individuals may not experience any symptoms, meaning the condition can be asymptomatic.
+
+Arrhythmia Causes
+
+Arrhythmias can be caused by several underlying conditions. These include coronary artery disease, high blood pressure, cardiomyopathy, valve disorders, and electrolyte imbalances in the blood. They may also result from injury caused by a heart attack, recovery after heart surgery, or other medical conditions. In some cases, arrhythmias are linked to irritable heart tissue, which may be genetic or acquired.
+
+Arrhythmia Main Cause
+
+Most arrhythmias occur due to problems affecting the heart’s arteries, valves, or muscles, which disrupt the normal electrical signals that control the heartbeat.
+
+Arrhythmia Risk Factors
+
+Several factors increase the risk of developing arrhythmia. These include tobacco use, alcohol consumption, high caffeine intake, and the use of stimulants such as certain medications or herbal supplements. Additional risk factors include high blood pressure, obesity (body mass index greater than 30), high blood sugar levels, and sleep apnea.
+
+Arrhythmia Complications
+
+If left untreated, arrhythmias can lead to serious complications. These include cardiomyopathy, which weakens the heart muscle, cardiac arrest, and stroke.
+
+Arrhythmia Diagnosis
+
+Arrhythmia may first be suspected when an irregular heartbeat is detected during a pulse check or while listening to the heart. Diagnosis is confirmed through evaluation of symptoms, physical examination, and further medical testing. Patients may also be referred to an electrophysiologist, a specialist in heart rhythm disorders.
+
+Arrhythmia Diagnostic Tests
+
+Several tests are used to diagnose arrhythmia. An electrocardiogram (ECG or EKG) is commonly used to measure the heart’s electrical activity. Blood tests can help detect electrolyte imbalances or genetic issues. Other tests include ambulatory monitoring for continuous tracking, stress tests, echocardiograms, cardiac catheterization, electrophysiology studies (EPS), tilt table tests, computed tomography (CT), and heart MRI.
+
+Arrhythmia Treatment Overview
+
+Treatment for arrhythmia depends on its type and severity. In some cases, treatment may not be required if the condition is mild or does not cause symptoms.
+
+Arrhythmia Medications
+
+Medications used to treat arrhythmia include antiarrhythmic drugs that help restore or maintain a normal heart rhythm. Other medications may be used to control heart rate or reduce the risk of blood clots, such as anticoagulants or antiplatelet drugs. Additional medications may also be prescribed to manage underlying conditions.
+
+Arrhythmia Lifestyle Changes
+
+Lifestyle changes can help manage arrhythmia and reduce risk. These include controlling blood pressure and blood sugar levels, avoiding tobacco use, reducing alcohol intake, limiting caffeine and stimulant consumption, and maintaining a healthy body weight.
+
+Arrhythmia Therapies
+
+Several medical procedures are available to treat arrhythmia. Cardioversion uses an electrical impulse to restore normal heart rhythm. Catheter ablation involves using high-frequency energy to destroy abnormal electrical pathways. Pulmonary vein isolation is another procedure that creates scar tissue to isolate sources of atrial fibrillation.
+
+Arrhythmia Devices
+
+Medical devices may be implanted to regulate heart rhythm. A permanent pacemaker helps maintain a normal heart rate, while an implantable cardioverter defibrillator (ICD) detects and corrects life-threatening arrhythmias. A biventricular pacemaker, also known as cardiac resynchronization therapy (CRT), helps synchronize the contraction of the heart’s ventricles.
+
+Arrhythmia Surgery
+
+Surgical procedures may be required to treat underlying heart conditions. These include valve surgery or coronary artery bypass surgery. The maze procedure is used to treat atrial fibrillation, and surgery may also be performed to place biventricular pacemaker leads.
+
+Arrhythmia Treatment Side Effects and Complications
+
+Treatment methods may have side effects or risks. Medications can cause allergic reactions, dizziness, headaches, bleeding, or stomach upset. Cardioversion may result in blood clot embolization, skin bruising, or rash. Catheter ablation may cause bleeding, infection, stroke, or injury to heart tissue. Pulmonary vein isolation may lead to allergic reactions to dye, infection, or injury to nearby organs. Implanted devices may malfunction or cause infection, bleeding, or lung complications. Surgical procedures may result in bleeding, infection, stroke, heart attack, or the need for a pacemaker.
+
+Arrhythmia Recovery
+
+Recovery from arrhythmia varies depending on the treatment. It may take time to determine the most effective medication and dosage. Recovery from procedures or surgery can take weeks to months, and temporary arrhythmias may still occur after treatments such as catheter ablation or pulmonary vein isolation.

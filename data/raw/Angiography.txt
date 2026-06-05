@@ -1,0 +1,24 @@
+Angiography
+Definition
+
+Angiography is a type of X-ray imaging used to examine blood vessels and assess blood flow. Because blood vessels do not appear clearly on a normal X-ray, a special dye called a contrast agent is injected into the bloodstream to make them visible. This allows doctors to detect abnormalities or blockages. The images produced during this procedure are called angiograms.
+
+Purpose
+
+Angiography is used to evaluate the condition of blood vessels and how blood flows through them. It helps diagnose conditions such as atherosclerosis, which is the narrowing of arteries; peripheral arterial disease, which reduces blood flow to the legs; brain aneurysm, which is a bulge in a blood vessel in the brain; and angina, which causes chest pain due to reduced blood supply to the heart. It can also detect blood clots, pulmonary embolism, and blockages affecting blood supply to the kidneys. In addition, angiography is often used to plan further medical treatment.
+
+Procedure
+
+Angiography is usually performed in a hospital radiology department. The patient is typically awake but may receive a sedative to help them relax. During the procedure, the patient lies on an X-ray table while a small incision is made near the groin or wrist. A thin tube called a catheter is inserted into an artery and carefully guided to the area being examined. A contrast dye is then injected through the catheter, and X-ray images are taken as the dye flows through the blood vessels. The procedure usually takes between 30 minutes and 2 hours, and most patients can go home on the same day.
+
+Risks
+
+Angiography is generally considered safe and painless, although some minor side effects may occur. Common temporary effects include bruising, soreness, or a small lump at the site where the catheter was inserted. In rare cases, more serious complications can occur, such as an allergic reaction to the contrast dye, stroke, or heart attack.
+
+Types
+
+There are several types of angiography depending on the area of the body being examined. Coronary angiography focuses on the heart and nearby blood vessels, cerebral angiography examines blood vessels in the brain, pulmonary angiography looks at blood vessels in the lungs, and renal angiography evaluates blood vessels in the kidneys.
+
+Variants
+
+Some forms of angiography use advanced imaging techniques instead of standard X-rays. These include CT angiography and MRI angiography, which provide detailed images using computed tomography or magnetic resonance imaging. Another specialized form is fluorescein angiography, which is used to examine blood vessels in the eyes.
