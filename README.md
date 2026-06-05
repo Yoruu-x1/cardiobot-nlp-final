@@ -21,7 +21,7 @@ This project compares three approaches:
 ## Dataset
 
 The dataset consists of 29 curated cardiovascular text documents.
-The raw cardiovascular documents were collected from publicly available health education websites such as Cleveland Clinic, American Heart Association, CDC, NHS, and Mayo Clinic. The references are included in data/references.csv
+The raw cardiovascular documents were collected from publicly available health education websites such as Cleveland Clinic, American Heart Association, CDC, NHS, and Mayo Clinic. The reference links are included in data/references.csv
 
 From these documents, 160 Q&A pairs were created and split into:
 
