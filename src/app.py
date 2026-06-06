@@ -3,10 +3,10 @@ from pathlib import Path
 
 import streamlit as st
 import torch
+import faiss
+import numpy as np
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-
+from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 
@@ -23,10 +23,11 @@ MODEL_DIR = BASE_DIR / "models"
 
 BASE_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
 LORA_PATH = MODEL_DIR / "qwen2_5_1_5b_cardio_lora"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 DEFAULT_TOP_K = 3
-DEFAULT_MAX_NEW_TOKENS = 220
-MIN_SCORE = 0.05
+DEFAULT_MAX_NEW_TOKENS = 300
+MIN_SCORE = 0.25
 
 SYSTEM_PROMPT = (
     "You are CardioBot, a cardiovascular health education assistant. "
@@ -93,7 +94,7 @@ st.markdown(
 
 st.markdown('<div class="main-title">❤️ CardioBot</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="subtitle">A cardiovascular health education chatbot.</div>',
+    '<div class="subtitle">A cardiovascular health education chatbot</div>',
     unsafe_allow_html=True
 )
 
@@ -115,7 +116,7 @@ def clean_text(text):
 
 
 def load_raw_documents():
-    raw_files = list(RAW_DIR.glob("*.txt"))
+    raw_files = sorted(RAW_DIR.glob("*.txt"))
 
     documents = []
 
@@ -131,7 +132,7 @@ def load_raw_documents():
     return documents
 
 
-def chunk_text(documents, chunk_size=180, overlap=30):
+def chunk_text(documents, chunk_size=180):
     chunks = []
 
     for doc in documents:
@@ -187,44 +188,118 @@ def chunk_text(documents, chunk_size=180, overlap=30):
     return unique_chunks
 
 
+# =========================
+# SAFETY GUARD
+# =========================
+
+def safety_check(question):
+    q = question.lower()
+
+    prescription_keywords = [
+        "prescribe",
+        "medicine should i take",
+        "what medicine",
+        "best medicine",
+        "dosage",
+        "dose",
+        "stop taking",
+        "should i stop",
+        "can i stop",
+        "medication"
+    ]
+
+    diagnosis_keywords = [
+        "diagnose",
+        "do i have",
+        "am i having",
+        "whether i have",
+        "confirm if i have"
+    ]
+
+    emergency_keywords = [
+        "severe chest pain",
+        "sudden chest pain",
+        "can't breathe",
+        "cannot breathe",
+        "fainting",
+        "face drooping",
+        "trouble speaking",
+        "stroke symptoms",
+        "heart attack symptoms"
+    ]
+
+    if any(keyword in q for keyword in emergency_keywords):
+        return (
+            "This may be an emergency symptom. I cannot diagnose your condition, "
+            "but you should seek immediate medical help or contact local emergency services right away."
+        )
+
+    if any(keyword in q for keyword in prescription_keywords):
+        return (
+            "I cannot prescribe, recommend, change, or stop medication. "
+            "Please consult a licensed healthcare professional for medication advice, especially for chest pain or heart-related symptoms."
+        )
+
+    if any(keyword in q for keyword in diagnosis_keywords):
+        return (
+            "I cannot diagnose whether you have a specific condition. "
+            "I can explain general cardiovascular information, but diagnosis requires evaluation by a healthcare professional."
+        )
+
+    return None
+
+
+# =========================
+# FAISS VECTOR RETRIEVER
+# =========================
+
 @st.cache_resource
-def build_retriever():
+def build_vector_retriever():
     documents = load_raw_documents()
     chunks = chunk_text(documents)
 
-    texts = [chunk["text"] for chunk in chunks]
+    embedding_model = SentenceTransformer(EMBEDDING_MODEL)
 
-    vectorizer = TfidfVectorizer(
-        stop_words="english",
-        ngram_range=(1, 2),
-        max_features=10000
-    )
+    chunk_texts = [chunk["text"] for chunk in chunks]
 
-    tfidf_matrix = vectorizer.fit_transform(texts)
+    chunk_embeddings = embedding_model.encode(
+        chunk_texts,
+        convert_to_numpy=True,
+        normalize_embeddings=True,
+        show_progress_bar=False
+    ).astype("float32")
 
-    return chunks, vectorizer, tfidf_matrix
+    embedding_dim = chunk_embeddings.shape[1]
+
+    faiss_index = faiss.IndexFlatIP(embedding_dim)
+    faiss_index.add(chunk_embeddings)
+
+    return chunks, embedding_model, faiss_index
 
 
-def retrieve_context(question, chunks, vectorizer, tfidf_matrix, top_k=3):
-    query_vec = vectorizer.transform([question])
-    scores = cosine_similarity(query_vec, tfidf_matrix)[0]
+def retrieve_faiss_context(question, chunks, embedding_model, faiss_index, top_k=3):
+    query_embedding = embedding_model.encode(
+        [question],
+        convert_to_numpy=True,
+        normalize_embeddings=True
+    ).astype("float32")
 
-    top_indices = scores.argsort()[-top_k:][::-1]
+    scores, indices = faiss_index.search(query_embedding, top_k)
 
     results = []
 
-    for idx in top_indices:
+    for score, idx in zip(scores[0], indices[0]):
         results.append({
             "source": chunks[idx]["source"],
             "text": chunks[idx]["text"],
-            "score": float(scores[idx])
+            "score": float(score)
         })
 
     return results
 
 
 # =========================
-# MODEL
+# MODEL LOADING
 # =========================
 
 @st.cache_resource
@@ -257,6 +332,10 @@ def load_lora_model():
     return model, tokenizer
 
 
+# =========================
+# RAG GENERATION
+# =========================
+
 def build_rag_prompt(question, retrieved_contexts, tokenizer):
     context_text = ""
 
@@ -268,8 +347,8 @@ def build_rag_prompt(question, retrieved_contexts, tokenizer):
         f"Context:\n{context_text}\n"
         f"Question: {question}\n\n"
         f"Answer clearly and completely based only on the context. "
-        f"If the question asks for a process or flow, explain the steps in order from beginning to end. "
-        f"Keep the answer concise, educational, and easy to understand."
+        f"If the question asks for a process, pathway, or flow, explain the full sequence step by step from beginning to end. "
+        f"Do not skip important steps if they are present in the context."
     )
 
     messages = [
@@ -283,69 +362,28 @@ def build_rag_prompt(question, retrieved_contexts, tokenizer):
         add_generation_prompt=True
     )
 
-def safety_check(question):
-    q = question.lower()
-
-    prescription_keywords = [
-        "prescribe", "medicine should i take", "what medicine",
-        "best medicine", "dosage", "dose", "stop taking",
-        "should i stop", "can i stop", "medication"
-    ]
-
-    diagnosis_keywords = [
-        "diagnose", "do i have", "am i having",
-        "whether i have", "confirm if i have"
-    ]
-
-    emergency_keywords = [
-        "severe chest pain", "sudden chest pain",
-        "can't breathe", "cannot breathe",
-        "fainting", "face drooping",
-        "trouble speaking", "stroke symptoms",
-        "heart attack symptoms"
-    ]
-
-    if any(keyword in q for keyword in emergency_keywords):
-        return (
-            "This may be an emergency symptom. I cannot diagnose your condition, "
-            "but you should seek immediate medical help or contact local emergency services right away."
-        )
-
-    if any(keyword in q for keyword in prescription_keywords):
-        return (
-            "I cannot prescribe, recommend, change, or stop medication. "
-            "Please consult a licensed healthcare professional for medication advice, especially for chest pain or heart-related symptoms."
-        )
-
-    if any(keyword in q for keyword in diagnosis_keywords):
-        return (
-            "I cannot diagnose whether you have a specific condition. "
-            "I can explain general cardiovascular information, but diagnosis requires evaluation by a healthcare professional."
-        )
-
-    return None
 
 def generate_rag_answer(
     question,
     model,
     tokenizer,
     chunks,
-    vectorizer,
-    tfidf_matrix,
+    embedding_model,
+    faiss_index,
     top_k=3,
     max_new_tokens=300,
-    min_score=0.05
+    min_score=0.25
 ):
-    
     safety_response = safety_check(question)
+
     if safety_response is not None:
         return safety_response
 
-    retrieved = retrieve_context(
+    retrieved = retrieve_faiss_context(
         question=question,
         chunks=chunks,
-        vectorizer=vectorizer,
-        tfidf_matrix=tfidf_matrix,
+        embedding_model=embedding_model,
+        faiss_index=faiss_index,
         top_k=top_k
     )
 
@@ -353,13 +391,16 @@ def generate_rag_answer(
         return "The information is not available in the cardiovascular knowledge base."
 
     prompt = build_rag_prompt(question, retrieved, tokenizer)
+
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
-            do_sample=False,
+            temperature=0.15,
+            do_sample=True,
+            top_p=0.9,
             repetition_penalty=1.05,
             pad_token_id=tokenizer.eos_token_id
         )
@@ -375,7 +416,7 @@ def generate_rag_answer(
 # =========================
 
 with st.spinner("Preparing CardioBot..."):
-    chunks, vectorizer, tfidf_matrix = build_retriever()
+    chunks, embedding_model, faiss_index = build_vector_retriever()
     model, tokenizer = load_lora_model()
 
 
@@ -385,12 +426,10 @@ with st.spinner("Preparing CardioBot..."):
 
 example_questions = [
     "How does blood flow through the heart and body?",
-    "What are the warning signs of a heart attack?",
-    "What are the symptoms of stroke?",
-    "Why do some people need a pacemaker?",
-    "Can high cholesterol cause heart problems?",
-    "What is cardiac rehabilitation?",
-    "Can you prescribe medicine for chest pain?"
+    "What test can check if my heart rhythm is irregular? ECG or Holter Monitor? What are the differences?",
+    "Can high cholesterol cause heart problems even if I feel healthy?",
+    "What are the warning signs of a stroke?",
+    "Can you prescribe medicine for my chest pain?"
 ]
 
 selected_example = st.selectbox(
@@ -402,7 +441,7 @@ user_question = st.text_area(
     "Ask your question:",
     value=selected_example,
     height=120,
-    placeholder="Example: What are the warning signs of a heart attack?"
+    placeholder="Example: What are the warning signs of a stroke?"
 )
 
 ask_button = st.button(
@@ -421,8 +460,8 @@ if ask_button:
                 model=model,
                 tokenizer=tokenizer,
                 chunks=chunks,
-                vectorizer=vectorizer,
-                tfidf_matrix=tfidf_matrix,
+                embedding_model=embedding_model,
+                faiss_index=faiss_index,
                 top_k=DEFAULT_TOP_K,
                 max_new_tokens=DEFAULT_MAX_NEW_TOKENS,
                 min_score=MIN_SCORE
@@ -444,6 +483,6 @@ if ask_button:
         )
 
 st.markdown(
-    '<div class="footer">CardioBot | Your Heart Doctor</div>',
+    '<div class="footer">CardioBot | Your Mini Heart Doctor</div>',
     unsafe_allow_html=True
 )

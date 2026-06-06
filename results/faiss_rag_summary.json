@@ -1,0 +1,7 @@
+{
+  "model": "FAISS RAG + Qwen LoRA",
+  "test_size": 34,
+  "source_match_accuracy": 0.7353,
+  "top3_source_match_accuracy": 0.9706,
+  "average_top_score": 0.6953
+}
