@@ -1,27 +1,35 @@
 # CardioBot: Cardiovascular Domain Chatbot
 
-CardioBot is an NLP project that develops a cardiovascular health education chatbot using baseline retrieval, transfer learning, and retrieval-augmented generation.
+CardioBot is an NLP final project that develops a cardiovascular health education chatbot using baseline retrieval, transfer learning, and Retrieval-Augmented Generation (RAG).
+
+The project compares traditional retrieval, LoRA fine-tuning, TF-IDF-based RAG, and FAISS vector database-based RAG.
 
 ## Project Overview
 
-This project compares three approaches:
+This project compares four approaches:
 
 1. **TF-IDF Baseline**
-   - Uses TF-IDF vectorization and cosine similarity to retrieve relevant cardiovascular document chunks.
+   - Uses TF-IDF vectorization and cosine similarity.
+   - Retrieves relevant cardiovascular document chunks.
    - Produces extractive answers from retrieved text.
 
-2. **Qwen LoRA Fine-Tuning**
-   - Uses Qwen2.5-1.5B-Instruct as the pretrained model.
+2. **Qwen LoRA**
+   - Uses `Qwen/Qwen2.5-1.5B-Instruct` as the pretrained model.
    - Applies LoRA fine-tuning on cardiovascular Q&A pairs.
+   - Generates answers without retrieving external document context during inference.
 
-3. **RAG + Qwen LoRA**
-   - Uses TF-IDF retrieval to retrieve top-k context from raw documents.
+3. **TF-IDF RAG + Qwen LoRA**
+   - Uses TF-IDF retrieval to retrieve top-k contexts from raw documents.
    - Uses the fine-tuned Qwen LoRA model to generate grounded answers.
+
+4. **FAISS RAG + Qwen LoRA**
+   - Uses sentence embeddings and FAISS vector search for semantic retrieval.
+   - Uses the fine-tuned Qwen LoRA model as the generator.
+   - Selected as the final system based on overall evaluation.
 
 ## Dataset
 
 The dataset consists of 29 curated cardiovascular text documents.
-The raw cardiovascular documents were collected from publicly available health education websites such as Cleveland Clinic, American Heart Association, CDC, NHS, and Mayo Clinic. The reference links are included in data/references.csv
 
 From these documents, 160 Q&A pairs were created and split into:
 
@@ -29,21 +37,59 @@ From these documents, 160 Q&A pairs were created and split into:
 - Validation: 25
 - Test: 34
 
-## Evaluation Results
+The Q&A dataset was created using an AI-assisted and human-reviewed process. Each Q&A pair was grounded in the collected cardiovascular documents.
 
-| Model | ROUGE-1 | ROUGE-2 | ROUGE-L | BLEU | Answer Similarity |
-|---|---:|---:|---:|---:|---:|
-| TF-IDF Baseline | 0.2972 | 0.1193 | 0.2180 | 0.0408 | 0.2897 |
-| Qwen LoRA | 0.4621 | 0.2320 | 0.3793 | 0.1302 | 0.3624 |
-| RAG + Qwen LoRA | 0.5255 | 0.3074 | 0.4414 | 0.1674 | 0.4353 |
+## Topics Covered
 
-The RAG + Qwen LoRA system achieved the best overall result.
+The dataset covers multiple cardiovascular topics, including:
 
-## Local App
+- Angiography
+- Angioplasty and Stent
+- Arrhythmia
+- Atherosclerosis
+- Blood Pressure Measurement
+- Blood Flow
+- Cardiac Ablation
+- Cardiac Rehabilitation
+- Cardiomyopathy
+- Cholesterol
+- Congenital Heart Disease
+- Coronary Artery Disease
+- Echocardiogram
+- Electrocardiogram
+- Heart Valve Disease
+- Heart Disease
+- Holter Monitor
+- Pacemaker
+- Peripheral Artery Disease
+- Stress Test
+- Stroke
+- Circulation
+- Heart Anatomy and Function
+- Heart Disease Risk Factors
+- Heart Failure
+- Hypertension
+- Prevention
+- Treatment for Heart Disease
+- Warning Signs of Heart Attack
 
-The final chatbot is implemented using Streamlit.
+## Folder Structure
 
-Run the app locally:
-
-```bash
-streamlit run src/app.py
+```text
+CardioBot_NLP_Final/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_dataset_preparation.ipynb
+│   ├── 02_baseline_tfidf.ipynb
+│   ├── 03_lora_finetuning.ipynb
+│   ├── 04_rag_chatbot.ipynb
+│   ├── 04b_vector_db_rag_experiment.ipynb
+│   └── 05_evaluation_results.ipynb
+├── results/
+├── src/
+│   └── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
