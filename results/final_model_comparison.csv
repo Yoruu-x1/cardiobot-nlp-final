@@ -1,4 +1,4 @@
 model,test_size,avg_rouge_1,avg_rouge_2,avg_rouge_l,avg_bleu,avg_answer_similarity,avg_reference_length,avg_prediction_length,avg_compression_ratio,source_match_accuracy,top3_source_match_accuracy,average_top_score
 Qwen LoRA,34,0.4621,0.232,0.3793,0.1302,0.3624,34.0588,33.0588,1.0225,,,
-RAG + Qwen LoRA,34,0.5318,0.3008,0.4517,0.1648,0.4398,34.0588,30.0294,0.8944,0.6176,0.8529,0.2919
+RAG + Qwen LoRA,34,0.5255,0.3074,0.4414,0.1674,0.4353,34.0588,31.5294,0.9415,0.6176,0.8529,0.2919
 TF-IDF Baseline,34,0.2972,0.1193,0.218,0.0408,0.2897,34.0588,71.8824,2.2307,0.6176,0.8529,0.2919

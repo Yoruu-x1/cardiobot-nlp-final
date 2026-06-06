@@ -5,7 +5,7 @@
     "source": "Cardiomyopathy.txt",
     "question": "What is dilated cardiomyopathy?",
     "reference_answer": "Dilated cardiomyopathy is a type of cardiomyopathy in which the heart chambers become thin, stretched, and enlarged. It usually starts in the left ventricle and makes it harder for the heart to pump blood to the body.",
-    "rag_answer": "Dilated cardiomyopathy occurs when the heart's chambers thin and stretch, growing larger. It typically starts in the left ventricle and can affect the ability to pump blood effectively.",
+    "rag_answer": "Dilated cardiomyopathy occurs when the heart's chambers become enlarged and lose their normal size and shape. It usually starts in the left ventricle and can affect the ability of the heart to pump blood effectively.",
     "top_source": "Cardiomyopathy.txt",
     "top_score": 0.2921921876142275,
     "retrieved_contexts": [
@@ -32,7 +32,7 @@
     "source": "Heart Valve Disease.txt",
     "question": "What is valve regurgitation?",
     "reference_answer": "Valve regurgitation happens when valve flaps do not close tightly. This allows blood to leak backward through the valve.",
-    "rag_answer": "Valve regurgitation occurs when the valve flaps don't close properly. Blood may flow backward through the valve during each heartbeat cycle.",
+    "rag_answer": "Valve regurgitation occurs when the valve flaps don't close properly, allowing some blood to flow backward. This can happen because the valve flaps become thick or stiff, or they can join together.",
     "top_source": "Echocardiogram.txt",
     "top_score": 0.3689804836831777,
     "retrieved_contexts": [
@@ -86,7 +86,7 @@
     "source": "heart_failure.txt",
     "question": "What are the ACC/AHA stages of heart failure?",
     "reference_answer": "The ACC/AHA stages of heart failure are Stage A, Stage B, Stage C, and Stage D. Stage A means at risk without structural disease, Stage B means structural disease without symptoms, Stage C means structural disease with current or past symptoms, and Stage D means advanced heart failure with severe symptoms despite treatment.",
-    "rag_answer": "The ACC/AHA stages of heart failure are Stage A (at risk of heart failure without structural heart disease or symptoms), Stage B (structural heart disease without symptoms), Stage C (structural heart disease with current or past symptoms), and Stage D (advanced heart failure with severe symptoms despite treatment).",
+    "rag_answer": "The ACC/AHA stages of heart failure are Stage A (at risk of heart failure without structural heart disease or symptoms), Stage B (structural heart disease without symptoms), Stage C (structural heart disease with current or past symptoms), and Stage D (advanced heart failure with severe symptoms).",
     "top_source": "heart_failure.txt",
     "top_score": 0.3581008122311693,
     "retrieved_contexts": [
@@ -113,7 +113,7 @@
     "source": "Stroke.txt",
     "question": "How is hemorrhagic stroke treated?",
     "reference_answer": "Hemorrhagic stroke treatment focuses on controlling the bleeding and reducing pressure around the brain. Treatment may include medications to stop bleeding, blood pressure management, and sometimes surgery to reduce increased intracranial pressure.",
-    "rag_answer": "For hemorrhagic stroke, providers control the bleeding that caused it with medications to stop the bleeding in the brain and manage blood pressure. Surgery may be needed to reduce increased intracranial pressure around the brain.",
+    "rag_answer": "For hemorrhagic stroke, providers will control the bleeding that caused it. They may use medications to stop the bleeding in the brain and manage blood pressure. In some cases, surgery may be needed to reduce increased intracranial pressure around the brain.",
     "top_source": "Stroke.txt",
     "top_score": 0.2270663646160849,
     "retrieved_contexts": [
@@ -167,7 +167,7 @@
     "source": "Cardiomyopathy.txt",
     "question": "What are common symptoms of cardiomyopathy?",
     "reference_answer": "Symptoms of cardiomyopathy can include shortness of breath, chest pain after activity or heavy meals, rapid or fluttering heartbeats, swelling in the legs or feet, bloating from fluid buildup, cough while lying down, fatigue, dizziness, and fainting.",
-    "rag_answer": "Common symptoms of cardiomyopathy include fatigue, shortness of breath, leg swelling, palpitations, and fainting. Some people may not have symptoms at all.",
+    "rag_answer": "Common symptoms of cardiomyopathy include fatigue, shortness of breath, leg swelling, palpitations, and fainting. Some people may not have symptoms until the condition gets worse.",
     "top_source": "Arrhythmia.txt",
     "top_score": 0.21679036722185885,
     "retrieved_contexts": [
@@ -194,7 +194,7 @@
     "source": "Cardiomyopathy.txt",
     "question": "How can acquired cardiomyopathy risk be reduced?",
     "reference_answer": "The risk of acquired cardiomyopathy can be reduced by avoiding alcohol and illegal drugs, controlling high blood pressure, high cholesterol and diabetes, eating a healthy diet, exercising regularly, getting enough sleep, and lowering stress.",
-    "rag_answer": "Acquired cardiomyopathy risk can be reduced by maintaining a healthy lifestyle, managing chronic conditions like diabetes and high blood pressure, getting regular exercise, eating a balanced diet, and avoiding smoking and excessive alcohol.",
+    "rag_answer": "Acquired cardiomyopathy risk can be reduced by maintaining a healthy lifestyle, managing chronic conditions like high blood pressure and diabetes, avoiding alcohol and tobacco, and getting regular check-ups.",
     "top_source": "Cardiomyopathy.txt",
     "top_score": 0.35253754488369543,
     "retrieved_contexts": [
@@ -248,7 +248,7 @@
     "source": "Cholesterol.txt",
     "question": "Where does cholesterol come from?",
     "reference_answer": "Cholesterol comes from two sources. The liver makes all the cholesterol the body needs, and the rest can come from animal-based foods such as meat, poultry, and dairy products.",
-    "rag_answer": "Cholesterol comes from the liver making cholesterol from fat in the diet. Some cholesterol also comes from saturated fats, trans fats, and animal products.",
+    "rag_answer": "Cholesterol comes from the liver making cholesterol from fat in the diet. Some cholesterol also comes from saturated fats and trans fats in food.",
     "top_source": "Cholesterol.txt",
     "top_score": 0.18677920284431507,
     "retrieved_contexts": [
@@ -275,7 +275,7 @@
     "source": "heart_disease_risk_factors.txt",
     "question": "Why are high blood pressure, high cholesterol, and smoking considered major heart disease risk factors?",
     "reference_answer": "High blood pressure, high cholesterol, and smoking are major heart disease risk factors because they directly affect blood vessels and increase the risk of cardiovascular complications. Managing these factors can help reduce heart disease risk.",
-    "rag_answer": "High blood pressure, high cholesterol, and smoking are major heart disease risk factors because they contribute to plaque buildup in arteries, increase the risk of heart attack and stroke, and damage blood vessels over time.",
+    "rag_answer": "High blood pressure, high cholesterol, and smoking are major heart disease risk factors because they contribute to the buildup of plaque in arteries, which increases the risk of heart attack, stroke, and other cardiovascular events.",
     "top_source": "Heart_Disease.txt",
     "top_score": 0.3615217613640657,
     "retrieved_contexts": [
@@ -329,7 +329,7 @@
     "source": "Cardiac ablation.txt",
     "question": "What are the benefits of cardiac ablation?",
     "reference_answer": "Cardiac ablation is minimally invasive and usually does not require a long hospital stay. It can restore a normal heart rhythm when medications fail or cause unwanted side effects, and in some cases it can be lifesaving.",
-    "rag_answer": "Cardiac ablation is a minimally invasive procedure that restores a normal heart rhythm when medications fail or aren't an ideal option because of side effects. It can be lifesaving in some cases. Depending on the type of abnormal heart rhythm, it may not work every time, and improvements may take several weeks or require additional procedures.",
+    "rag_answer": "Cardiac ablation is a minimally invasive procedure that restores a normal heart rhythm when medications fail or aren't an ideal option due to side effects. It can be lifesaving in some cases. Depending on the type of abnormal heart rhythm, it may not work every time, and improvements may take several weeks or require additional procedures.",
     "top_source": "Cardiac rehabilitation.txt",
     "top_score": 0.2579239737080824,
     "retrieved_contexts": [
@@ -410,7 +410,7 @@
     "source": "Electrocardiogram.txt",
     "question": "When might an ECG be needed?",
     "reference_answer": "An ECG may be needed for chest pain, shortness of breath, fatigue, dizziness, fainting, irregular heartbeats, monitoring medication effectiveness, pre-surgery assessment, evaluating high-risk individuals, or checking rhythm after a heart attack.",
-    "rag_answer": "An ECG may be needed when diagnosing heart conditions, checking for arrhythmias, detecting abnormal heart rhythms, monitoring heart function after surgery, or evaluating symptoms of heart disease.",
+    "rag_answer": "An ECG may be needed before getting a Holter monitor if the patient has symptoms such as shortness of breath, dizziness, fainting, or palpitations.",
     "top_source": "Holter Monitor.txt",
     "top_score": 0.16725950948557924,
     "retrieved_contexts": [
@@ -464,7 +464,7 @@
     "source": "Blood pressure measurement.txt",
     "question": "What is the correct way to measure blood pressure?",
     "reference_answer": "Before measuring blood pressure, avoid eating or drinking for 30 minutes, empty the bladder, and sit with the back supported for at least five minutes. Keep both feet flat on the floor, legs uncrossed, arm supported at chest height, cuff against bare skin, and avoid talking during the measurement.",
-    "rag_answer": "The correct way to measure blood pressure involves wrapping an inflatable cuff around your arm, inflating it, and using a gauge on the cuff to measure your blood pressure.",
+    "rag_answer": "The correct way to measure blood pressure involves wrapping an inflatable cuff around your arm, inflating it, and then deflating it slowly while listening to the sound of the blood flow through a stethoscope. A health care professional will use a gauge on the cuff to read the blood pressure reading.",
     "top_source": "Blood pressure measurement.txt",
     "top_score": 0.4200477152511921,
     "retrieved_contexts": [
@@ -491,7 +491,7 @@
     "source": "Stroke.txt",
     "question": "What are risk factors for stroke?",
     "reference_answer": "Stroke risk factors include older age, smoking or tobacco use, recreational drug use, alcohol use disorder, COVID-19, frequent migraines, high blood pressure, high cholesterol, and type 2 diabetes.",
-    "rag_answer": "Risk factors for stroke include hypertension, diabetes, hyperlipidemia, atrial fibrillation, smoking, obesity, physical inactivity, poor diet, alcohol use, and sleep apnea.",
+    "rag_answer": "Risk factors for stroke include hypertension, diabetes, hyperlipidemia, atrial fibrillation, vascular dementia, and stroke history.",
     "top_source": "heart_disease_risk_factors.txt",
     "top_score": 0.33196420203995325,
     "retrieved_contexts": [
@@ -518,7 +518,7 @@
     "source": "prevention.txt",
     "question": "Why is managing diabetes important for heart disease prevention?",
     "reference_answer": "Managing diabetes is important because diabetes is a cardiovascular risk factor. Keeping diabetes under control, along with managing blood pressure and cholesterol, can help lower the risk of heart disease.",
-    "rag_answer": "Managing diabetes is important for heart disease prevention because it can increase the risk of developing heart disease, stroke, and other cardiovascular problems. Controlling blood sugar levels through diet, exercise, medication, and monitoring can help reduce this risk.",
+    "rag_answer": "Managing diabetes is important for heart disease prevention because it can increase the risk of developing heart disease, stroke, and other complications. Controlling blood sugar levels through diet, exercise, medication, and monitoring can help reduce this risk.",
     "top_source": "treatment_for_heart_disease.txt",
     "top_score": 0.21384160742308345,
     "retrieved_contexts": [
@@ -545,7 +545,7 @@
     "source": "Angiography.txt",
     "question": "What are possible risks of angiography?",
     "reference_answer": "Angiography is generally safe, but temporary effects may include bruising, soreness, or a small lump at the catheter insertion site. Rare serious complications can include allergic reaction to the contrast dye, stroke, or heart attack.",
-    "rag_answer": "The possible risks of angiography include bleeding, infection, allergic reactions to contrast dye, stroke, kidney damage, and perforation of blood vessels.",
+    "rag_answer": "The risks of angiography include bleeding, infection, allergic reactions to contrast dye, stroke, kidney damage, and perforation of blood vessels.",
     "top_source": "Angiography.txt",
     "top_score": 0.23559480436626662,
     "retrieved_contexts": [
@@ -626,7 +626,7 @@
     "source": "Angioplasty and stent.txt",
     "question": "What is the purpose of a stent during angioplasty?",
     "reference_answer": "A stent is a short wire mesh tube placed inside the artery during angioplasty. It stays in the artery permanently to help keep the vessel open and allow blood to flow more freely.",
-    "rag_answer": "During angioplasty, a stent is inserted into the artery during the procedure. The stent expands when the balloon is inflated and remains in place when the balloon is deflated and removed.",
+    "rag_answer": "During angioplasty, a short wire mesh tube called a stent is inserted into the artery during the procedure. The stent expands when the balloon is inflated and remains in place after the balloon is deflated and removed.",
     "top_source": "Angioplasty and stent.txt",
     "top_score": 0.3200984979065296,
     "retrieved_contexts": [
@@ -653,7 +653,7 @@
     "source": "Atherosclerosis.txt",
     "question": "What is atherosclerosis?",
     "reference_answer": "Atherosclerosis is a condition in which plaque made of fat, cholesterol, calcium, and other substances builds up inside artery walls. This makes arteries narrower and less flexible, reducing blood flow.",
-    "rag_answer": "Atherosclerosis is a condition where plaque builds up inside the arteries, narrowing them and making it harder for blood to flow through.",
+    "rag_answer": "Atherosclerosis is a condition where plaque builds up inside the arteries. It starts with damage to the inner lining of the arteries, often due to high cholesterol, smoking, high blood pressure, diabetes, and other factors that trigger inflammation.",
     "top_source": "Atherosclerosis.txt",
     "top_score": 0.13168215943280842,
     "retrieved_contexts": [
@@ -680,7 +680,7 @@
     "source": "treatment_for_heart_disease.txt",
     "question": "What lifestyle changes can help coronary heart disease?",
     "reference_answer": "Lifestyle changes that can help coronary heart disease include eating a healthy diet rich in fruits, vegetables, and whole grains, limiting saturated fats and sodium, exercising regularly, quitting smoking, getting enough sleep, maintaining a healthy weight, and managing stress.",
-    "rag_answer": "Lifestyle changes for coronary heart disease include quitting smoking, managing cholesterol, blood pressure, and diabetes, eating a healthy diet, exercising regularly, maintaining a healthy weight, getting enough sleep, reducing stress, and avoiding alcohol and tobacco.",
+    "rag_answer": "Lifestyle changes for coronary heart disease include quitting smoking, eating a healthy diet, maintaining a healthy weight, getting regular physical activity, managing stress, and limiting alcohol intake.",
     "top_source": "Heart_Disease.txt",
     "top_score": 0.24839056367435272,
     "retrieved_contexts": [
@@ -734,7 +734,7 @@
     "source": "Coronary Artery Disease.txt",
     "question": "What is coronary artery disease?",
     "reference_answer": "Coronary artery disease, or CAD, is a condition in which the coronary arteries become narrowed or blocked due to plaque buildup. This reduces blood flow to the heart and can lead to heart attack, arrhythmia, or heart failure.",
-    "rag_answer": "Coronary artery disease is a condition in which the coronary arteries that supply oxygen-rich blood to the heart muscle become narrowed or blocked. It is caused by plaque buildup, known as atherosclerosis, which reduces blood flow to the heart.",
+    "rag_answer": "Coronary artery disease is a condition in which the coronary arteries that supply oxygen-rich blood to the heart muscle become narrowed or blocked. This occurs due to plaque buildup, known as atherosclerosis, which reduces blood flow to the heart.",
     "top_source": "Stress test.txt",
     "top_score": 0.595014039787843,
     "retrieved_contexts": [
@@ -761,7 +761,7 @@
     "source": "Arrhythmia.txt",
     "question": "What complications can untreated arrhythmia cause?",
     "reference_answer": "Untreated arrhythmia can lead to serious complications such as cardiomyopathy, cardiac arrest, and stroke. The risk depends on the type and severity of the rhythm problem.",
-    "rag_answer": "Untreated arrhythmia can increase the risk of stroke, heart failure, and sudden cardiac death.",
+    "rag_answer": "Untreated arrhythmia can increase the risk of fatal complications, including stroke, heart failure, and sudden cardiac arrest.",
     "top_source": "Coronary Artery Disease.txt",
     "top_score": 0.13215552425351623,
     "retrieved_contexts": [
@@ -788,7 +788,7 @@
     "source": "Peripheral artery disease.txt",
     "question": "What are common symptoms of peripheral artery disease?",
     "reference_answer": "Peripheral artery disease may cause leg pain while walking, muscle pain or cramping in the arms or legs, pain that begins with exercise and improves with rest, coldness in the lower leg or foot, numbness, weakness, or a weak pulse in the legs or feet.",
-    "rag_answer": "Common symptoms of peripheral artery disease include pain, numbness, cold feet, changes in skin color, and wounds that do not heal.",
+    "rag_answer": "Common symptoms of peripheral artery disease include leg pain during walking, numbness, cold feet, changes in skin color, and sores that do not heal.",
     "top_source": "Peripheral artery disease.txt",
     "top_score": 0.21539009328182457,
     "retrieved_contexts": [
@@ -842,7 +842,7 @@
     "source": "Stroke.txt",
     "question": "What is a hemorrhagic stroke?",
     "reference_answer": "A hemorrhagic stroke happens when a blood vessel in the brain breaks or tears. Possible causes include brain aneurysms, brain tumors, high blood pressure, and conditions that weaken blood vessels in the brain.",
-    "rag_answer": "A hemorrhagic stroke occurs when a blood vessel in the brain leaks or ruptures, causing bleeding inside the brain.",
+    "rag_answer": "A hemorrhagic stroke occurs when a blood vessel in the brain bursts, causing bleeding inside the brain.",
     "top_source": "Stroke.txt",
     "top_score": 0.26598745982399924,
     "retrieved_contexts": [
@@ -896,7 +896,7 @@
     "source": "Cholesterol.txt",
     "question": "Why are cholesterol numbers important?",
     "reference_answer": "Cholesterol numbers are important because they help show the risk for heart disease. Too much cholesterol can enter artery walls, contribute to atherosclerotic plaque, and increase the risk of problems such as coronary artery disease, peripheral artery disease, carotid artery disease, heart attack, or stroke.",
-    "rag_answer": "Cholesterol numbers are important because they help you know your risk for heart disease. They show whether you need to make changes to lower your cholesterol, such as eating better foods, exercising more, quitting smoking, or taking medicine.",
+    "rag_answer": "Cholesterol numbers are important because they help you know your risk for heart disease. They show whether you need to make changes to lower your cholesterol, such as eating healthier foods, exercising more, quitting smoking, and taking medicine if necessary.",
     "top_source": "Cholesterol.txt",
     "top_score": 0.40544878551272057,
     "retrieved_contexts": [
