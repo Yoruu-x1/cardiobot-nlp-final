@@ -333,7 +333,7 @@ def generate_rag_answer(
     vectorizer,
     tfidf_matrix,
     top_k=3,
-    max_new_tokens=220,
+    max_new_tokens=300,
     min_score=0.05
 ):
     
