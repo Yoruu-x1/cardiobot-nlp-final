@@ -35,7 +35,7 @@ From these documents, 160 Q&A pairs were created and split into:
 |---|---:|---:|---:|---:|---:|
 | TF-IDF Baseline | 0.2972 | 0.1193 | 0.2180 | 0.0408 | 0.2897 |
 | Qwen LoRA | 0.4621 | 0.2320 | 0.3793 | 0.1302 | 0.3624 |
-| RAG + Qwen LoRA | 0.5318 | 0.3008 | 0.4517 | 0.1648 | 0.4398 |
+| RAG + Qwen LoRA | 0.5255 | 0.3074 | 0.4414 | 0.1674 | 0.4353 |
 
 The RAG + Qwen LoRA system achieved the best overall result.
 
